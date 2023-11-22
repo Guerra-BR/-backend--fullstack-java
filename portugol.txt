@@ -1,0 +1,68 @@
+1 - acordar
+2 - abrir os olhos
+3 - olhar para a janela
+*Alarme esta tocando? --Não
+    *Esta claro ou escuro do lado de fora? --Claro
+        1 - olhar para a cabeceira 
+        2 - localizar o celular
+        *O dispositivo foi encontrado? --Sim
+            1 - Estender o braço
+            2 - Pegar o dispositivo
+            3 - Desplugá-lo do carregador
+            4 - Trazer até a altura do rosto
+            5 - Acender a tela
+            *Que horas marcam no celular? -- (> 6:30)
+                1 - Bloquear a tela do celular
+                2 - Sentar-se na cama
+                3 - Levantar-se
+                    System.out.println("Programa 'acordar' correu com sucesso")
+            *-- (< 5:40)
+                1 - bloquear a tela do celular
+                2 - Colocar o dispositivo de volta na cabeceira
+                3 - Deitar a cabeça
+                4 - Fechar os olhos
+                    System.out.println("Ainda está cedo para levantar")
+        *--Não
+            1 - Continuar a procurar pelo celular
+            2 - Voltar a linha 7
+
+    *--escuro
+        1 - olhar para a cabeceira 
+        2 - localizar o celular
+        *O dispositivo foi encontrado? --Sim
+            1 - Estender o braço
+            2 - Pegar o dispositivo
+            3 - Desplugá-lo do carregador
+            4 - Trazer até a altura do rosto
+            5 - Acender a tela
+            6 - Verificar as horas                      //nunca se sabe, pode já estar de manhã e estar escuro mesmo assim
+            *Que horas marcam no celular? -- (> 6:30)
+                1 - Bloquear a tela do celular
+                2 - Sentar-se na cama
+                3 - Levantar-se
+                    System.out.println("Programa 'acordar' correu com sucesso")
+            *-- (< 5:40)
+                1 - bloquear a tela do celular
+                2 - Colocar o dispositivo de volta na cabeceira
+                3 - Deitar a cabeça
+                4 - Fechar os olhos
+                    System.out.println("Ainda está cedo para levantar")
+            
+*--Sim
+    1 - olhar para a cabeceira 
+    2 - localizar o celular
+    *O dispositivo foi encontrado? --Sim
+        1 - Estender o braço
+        2 - Pegar o dispositivo
+        3 - Desplugá-lo do carregador
+        4 - Trazer até a altura do rosto
+        5 - Acender a tela
+        6 - Desligar o alarme
+        7 - Bloquear a tela do celular
+        8 - Sentar-se na cama
+        9 - Levantar-se
+            System.out.println("Programa 'acordar' correu com sucesso")
+
+    *--Não
+        1 - Continuar a procurar pelo celular
+        2 - Voltar a linha 53         
