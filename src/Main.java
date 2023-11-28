@@ -10,5 +10,8 @@ public class Main {
         System.out.println(idadeS);
         long idadeL = idade;
         System.out.println(idadeL);
+
+        Integer idadeW = idade;
+        System.out.println(idadeW);
     }
 }
