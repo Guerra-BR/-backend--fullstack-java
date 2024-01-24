@@ -1,13 +1,10 @@
-package tests;
-
-
-import org.junit.Assert;
+package main;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class TestRunner {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Escreva as pessoas, separando-as por ';' e separando" +
                 " seu sexo(M ou F) por ','");
@@ -21,12 +18,17 @@ public class TestRunner {
             if (pp[1].equals("F")){
                 Pessoa p = new Pessoa(pp[0], pp[1]);
                 mulheres.add(p);
-                Assert.assertEquals("F", pp[1]);
             }
         });
+
+
+
+
+
         mulheres.forEach(pessoa -> {
-            Assert.assertEquals("F", pessoa.getSexo());
-            System.out.println(pessoa);
+            System.out.println(pessoa.toString());
         });
+
+
     }
 }
