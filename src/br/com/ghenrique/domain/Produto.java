@@ -1,3 +1,5 @@
+package br.com.ghenrique.domain;
+
 import javax.persistence.*;
 
 @Entity
