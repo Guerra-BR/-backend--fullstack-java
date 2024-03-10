@@ -1,4 +1,4 @@
-package br.com.ghenrique.domain;
+package br.com.ghenrique.domain.old;
 
 import javax.persistence.*;
 
